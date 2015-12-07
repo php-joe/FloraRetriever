@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile D:/server/XAMPP2/htdocs/at/module5-review/3crud/webprotect/.htpasswd
+require valid-user

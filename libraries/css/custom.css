@@ -1,0 +1,77 @@
+body {
+  background-image: url("../img/beigetree.png");
+  background-repeat: repeat;
+} /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+
+.container {
+  background-color: rgba(255,255,243, .9) !important;
+  border-radius: 25px !important;
+  border: 5px solid black;
+  margin-bottom: 50px;
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+
+}
+
+h1 {
+  font-size: 99px;
+}
+
+h2 {
+  font-size: 50px !important;
+}
+
+.btn {
+    border-radius: 25px;
+}
+
+table {
+  padding: 0 50px;
+
+}
+
+
+
+
+table.dataTable {
+	border-collapse: collapse !important;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th
+{
+	vertical-align: middle !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button
+{
+display: inline !important;
+}
+
+.pagination>li>a, .pagination>li>span {
+    position: relative !important;
+    float: left !important;
+    padding: 6px 12px !important;
+    margin-left: -1px !important;
+    line-height: 1.42857143 !important;
+    color: #337ab7 !important;
+    text-decoration: none !important;
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+}
+
+div.dataTables_wrapper div.dataTables_info{
+  padding-left: 8px !important;
+}
+
+div.dataTables_wrapper div.dataTables_length label{
+  padding-left: 8px;
+}
+
+.pagination>li>a, .pagination>li>span{
+  color: #333 !important;
+}
+
+.btn-group, .btn-group-vertical {
+  display: table !important;
+  margin: 0 auto !important;
+}
